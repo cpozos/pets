@@ -13,8 +13,8 @@
     {% if pet.vaccinations.all %}
         <p>Vaccinations for: </p>
         <ul>
-            {% for vaccinations in pet.vaccinations.all %}
-                <li>{{ vaccionation.name }}</li>
+            {% for vaccination in pet.vaccinations.all %}
+                <li>{{ vaccination.name }}</li>
             {% endfor %}
         </ul>
     {% endif %}
